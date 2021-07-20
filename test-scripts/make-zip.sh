@@ -5,4 +5,4 @@ yum install -y zip
 
 zip -r -j zip-output/src.zip spring-petclinic/src/*
 
-ls -la .
+ls -la zip-output

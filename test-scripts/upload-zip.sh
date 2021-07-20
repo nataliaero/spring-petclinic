@@ -3,7 +3,7 @@ echo Unzip file
 yum update -y
 yum install -y zip
 
-unzip spring-petclinic/src.zip
+unzip zip-output/src.zip
 
 echo "===== see what zip-out has: "
 ls -la zip-output

@@ -5,7 +5,7 @@ yum install -y zip
 
 unzip zip-output/src.zip
 
-ls -la .
+ls -laR .
 echo "===== see what zip-out has: "
 ls -la zip-output
 echo "===== see what spring-petclinic has: "

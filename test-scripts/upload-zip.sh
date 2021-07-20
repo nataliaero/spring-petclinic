@@ -3,6 +3,7 @@ echo Unzip file
 yum update -y
 yum install -y zip
 
-unzip src.zip
+unzip zip-output/src.zip
 
 ls -la .
+

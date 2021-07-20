@@ -3,6 +3,6 @@ echo Creating zip file
 yum update -y
 yum install -y zip
 
-zip -r image/src.zip repo/src/*
+zip -r zip-output/src.zip spring-petclinic/src/*
 
-ls -la image
+ls -la zip-output

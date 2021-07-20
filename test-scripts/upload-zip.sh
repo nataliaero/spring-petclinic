@@ -3,11 +3,11 @@ echo Unzip file
 yum update -y
 yum install -y zip
 
-unzip image/src.zip
+unzip zip.image/src.zip
 
-echo "===== see what image has: "
-ls -la image
-echo "===== see what repo has: "
-ls -la repo
+echo "===== see what zip-out has: "
+ls -la zip.image
+echo "===== see what spring-petclinic has: "
+ls -la spring-petclinic
 
 

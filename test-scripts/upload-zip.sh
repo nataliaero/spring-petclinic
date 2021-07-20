@@ -6,4 +6,5 @@ yum install -y zip
 unzip zip-output/src.zip
 
 ls -la .
+ls -la zip-output
 

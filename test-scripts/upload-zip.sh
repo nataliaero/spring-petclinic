@@ -27,7 +27,13 @@ assume_deployment_role() {
   export AWS_SESSION_TOKEN
 }
 
-assume_deployment_role
+upload_zip() {
+  assume_deployment_role
+
+  aws s3 cp s3://${BUCKET} zip-output/s3.zip
+}
+
+upload_zip
 
 
 

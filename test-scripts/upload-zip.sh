@@ -6,7 +6,7 @@ echo Unzip file
 # unzip zip.image/src.zip
 
 echo "===== see what zip-out has: "
-ls -la zip-output.image
+ls -la zip-output
 # echo "===== see what spring-petclinic has: "
 # ls -la spring-petclinic
 

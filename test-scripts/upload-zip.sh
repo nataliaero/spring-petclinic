@@ -31,6 +31,8 @@ upload_zip() {
 
   echo "============ upload file to s3"
   aws s3 cp s3://${BUCKET} zip-output/s3.zip
+
+  aws s3api list-objects --bucket ${BUCKET}
 }
 
 upload_zip

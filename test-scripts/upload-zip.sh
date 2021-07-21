@@ -30,6 +30,7 @@ assume_deployment_role() {
 upload_zip() {
   assume_deployment_role
 
+  echo "============ upload file to s3"
   aws s3 cp s3://${BUCKET} zip-output/s3.zip
 }
 

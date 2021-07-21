@@ -33,7 +33,7 @@ upload_zip() {
   ls -la zip-output
 
   echo "============ upload file to s3"
-  aws s3 cp s3://${BUCKET} zip-output/s3.zip
+  aws s3 cp s3://${BUCKET} zip-output/src.zip
 
   echo "============ aws s3api list-objects --bucket ${BUCKET}"
 

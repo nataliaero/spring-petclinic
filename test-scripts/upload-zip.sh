@@ -24,6 +24,8 @@ assume_deployment_role() {
   export AWS_SESSION_TOKEN
 }
 
+assume_deployment_role
+
 
 
 

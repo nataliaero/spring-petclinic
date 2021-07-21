@@ -11,7 +11,7 @@ assume_deployment_role() {
     aws --region "$REGION" \
       --output json \
       sts assume-role \
-      --role-arn arn:aws:iam::"$AWS_ACCOUNT_ID":role/webgis-staging-admin-nat \
+      --role-arn arn:aws:iam::"$AWS_ACCOUNT_ID":role/role_admin \
       --role-session-name webgis-staging-admin-nat
   )
 

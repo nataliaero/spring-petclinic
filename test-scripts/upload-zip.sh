@@ -39,7 +39,7 @@ echo "============ ls -l zip-output/src.zip"
   aws s3 ls
 
   echo "============ upload file to s3"
-  aws s3 cp s3://${BUCKET} zip-output/src.zip
+  aws s3 cp zip-output/src.zip s3://${BUCKET}
 
   echo "============ aws s3api list-objects --bucket ${BUCKET}"
 
